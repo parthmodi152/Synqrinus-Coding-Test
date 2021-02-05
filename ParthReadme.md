@@ -8,9 +8,12 @@ You can download it here: https://download.racket-lang.org/
 
 ## Files 
 * main.rkt is where the actual functions are. It references the constants.rkt and db.rkt to run.
+![alt text](https://github.com/parthmodi152/Synqrinus-Coding-Test/blob/master/screenshots/main.png?raw=true)
 * main-test.rkt is the same as main.rkt but also includes testing for the program. It runs in approximately 6 seconds.
 * db.rkt contains all the testing datasets. In order to add more tests, add a dataset in the same format as the others shown and **inlclude it in the (provide ...)**
-* constants.rkt contains constants like operators, alphabets and brackets which the main functions reference 
+![alt text](https://github.com/parthmodi152/Synqrinus-Coding-Test/blob/master/screenshots/db.png?raw=true)
+* constants.rkt contains constants like operators, alphabets and brackets which the main functions reference
+![alt text](https://github.com/parthmodi152/Synqrinus-Coding-Test/blob/master/screenshots/constants.png?raw=true)
 
 ## Running the program
 In order to run the program, you must have all 4 files, main-test.rkt, main.rkt, db.rkt and constants.rkt in the same directory.
