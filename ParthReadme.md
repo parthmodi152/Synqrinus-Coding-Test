@@ -18,6 +18,7 @@ You can download it here: https://download.racket-lang.org/
 ## Running the program
 In order to run the program, you must have all 4 files, main-test.rkt, main.rkt, db.rkt and constants.rkt in the same directory.
 In the Dr. Racket software find the 'Run' button on the top right of the panel to run the code to initialize the functions.
+![alt text](https://github.com/parthmodi152/Synqrinus-Coding-Test/blob/master/screenshots/run-button.png?raw=true)
 
 To test the functions, add the testing database to to the db.rkt file as explained the files section. 
 
