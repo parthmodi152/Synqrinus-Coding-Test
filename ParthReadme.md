@@ -1,5 +1,7 @@
 # Technical Interview - Parth Modi
 
+### Language Used: Racket (Functional Programming Language)
+
 ## Prerequisites
 In order to run the program, you require the Dr. Racket software installed. 
 You can download it here: https://download.racket-lang.org/
