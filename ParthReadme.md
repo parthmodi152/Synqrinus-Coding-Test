@@ -32,6 +32,7 @@ Parsing formulas is a requirement for many spreadsheets. To get the result of "=
 > (formula->tree "=(C5*(C3/C2))+B1") 
 (make-binode '+ (make-binode '* 'C5 (make-binode '/ 'C3 'C2)) 'B1)
 ```
+![alt text](https://github.com/parthmodi152/Synqrinus-Coding-Test/blob/master/screenshots/Task1-Console.png?raw=true)
 ### Task 2
 To check for circular dependency of a dataset, run the following in the racket console, swapping 'dataset' for the one specified in db.rkt:
 ``` 
@@ -51,7 +52,7 @@ To check the simplification of a dataset, run the following in the racket consol
  (make-data 'A2 (list 'B3) (make-var-cell 1 'B3))
  (make-data 'B3 (list 'A1) (make-binode '+ (make-var-cell 1 'A1) 3)))
  ``` 
-
+![alt text](https://github.com/parthmodi152/Synqrinus-Coding-Test/blob/master/screenshots/Task2-Console.png?raw=true)
 
 
 
